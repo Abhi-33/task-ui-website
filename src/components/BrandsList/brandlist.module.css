@@ -1,0 +1,84 @@
+.sectionEleven{
+    height:350px;
+    /* background-color: rgb(251, 251, 251); */
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.container{
+    height:inherit ;
+    width:80%;
+    /* border:1px solid black; */
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.brandText{
+    text-align: center;
+}
+.brandText h2{
+    font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top:30px;
+    background: linear-gradient(
+        90deg,
+        /* Horizontal gradient */ rgba(255, 0, 255, 1) 0%,
+        /* Bright pink */ rgb(91, 69, 254) 50%,
+        /* Light purple */ rgb(246, 87, 166) 100% /* Hot pink */
+        );
+        background-clip: text; /* Ensures it works in non-webkit browsers */
+        /* text-fill-color: transparent; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .brandText p{
+        padding-top:10px;
+        font-family:"Poppins",sans-serif;
+}
+.brandImages{
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.imagesContainer{
+    height:inherit;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.imagesFive img{
+   padding-left:50px;
+}
+.imagesFour{
+    display: flex;
+    justify-content: center;
+}
+.imagesFour img{
+    padding-left:50px;
+}
+#spotify{
+    height:50px;
+    margin-left:40px;
+}
+#google{
+    height:60px;
+}
+#stripe{
+    height:60px;
+}
+#youtube{
+    height:60px;
+}
+#microsoft{
+    height: 60px;
+}
+#medium{
+    height:80px;
+}
+#zoom{
+    height:60px;
+}
+#Uber{
+    height:70px;
+}
+#grab{
+    height:60px;
+}

@@ -1,0 +1,151 @@
+.sectionTen{
+    height:550px;
+    /* border:1px solid black; */
+    margin-left:0px;
+    width:100vw;
+    background: rgb(250, 250, 250);
+
+}
+.content{
+    height:150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80vw;
+    margin-left:140px;
+    margin-right:20px;
+}
+.heading h1{
+font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+background: linear-gradient(
+    90deg,
+    /* Horizontal gradient */ rgba(255, 0, 255, 1) 0%,
+    /* Bright pink */ rgba(132, 116, 254, 1) 50%,
+    /* Light purple */ rgba(255, 105, 180, 1) 100% /* Hot pink */
+  );
+  background-clip: text; /* Ensures it works in non-webkit browsers */
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading p{
+font-family:"Poppins", sans-serif;
+}
+.viewAll button{
+    padding:5px 20px 5px 20px;
+    cursor:pointer;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: none;
+    margin-right:40px;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+}
+
+/* cards styles */
+.cards{
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsContainer{
+    height:300px;
+    width:80vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border:1px solid black; */
+
+}
+
+.cardContainer{
+    height: 330px;
+    margin-top:10px;
+    /* border:1px solid black; */
+    border:transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width:89%;
+    margin-left:3px;
+    border-radius:10px;
+    background: white;
+    
+}
+#image{
+    height:220px;
+    width:233px;
+    border-radius:13px;
+    padding-left:10px;
+    padding-top:5px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+.name h5{
+    font-size:15px;
+    font-family: "Poppins" , sans-serif;
+    font-weight:600;
+    font-style: normal;
+}
+.name p{
+    font-family: "Poppins" , sans-serif;
+    font-size:11px;
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+
+}
+.followers h5{
+    font-size:15px;
+    font-family: "Poppins" , sans-serif;
+    font-weight:600;
+    font-style: normal;
+}
+.followers p{
+    font-family: "Poppins" , sans-serif;
+    font-size:11px;
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+
+}
+
+.cardLine{
+    margin-top:12px;
+    width:90%;
+    margin-left:10px;
+   /* background-color: rgb(252, 0, 0); */
+   opacity: 0.5;
+   /* border:transparent; */
+   /* background-color: rgb(54, 53, 53); */
+}
+
+.cardLinks{
+    height:40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialBtn{
+    margin-right:15px;
+    padding:2px 3px 1px 3px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+}
+
+.compareBtn{
+    padding:5px 18px 5px 18px;
+    background-color: rgb(117, 7, 228);
+    border:transparent;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight:400;
+    border-radius:5px;
+    font-size:8px;
+    cursor: pointer;
+}

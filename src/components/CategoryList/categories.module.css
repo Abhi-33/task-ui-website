@@ -1,0 +1,102 @@
+.sectionThree{
+    height:400px;
+    width:100vw;
+    background-color:rgb(250, 238, 222);
+}
+.content{
+    height:150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80vw;
+    margin-left:140px;
+    margin-right:20px;
+}
+.heading h1{
+font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+color: rgb(192, 122, 1);
+}
+
+.viewAll button{
+    padding:5px 20px 5px 20px;
+    cursor:pointer;
+    border:1px solid black;
+    border-radius: 15px;
+    margin-right:40px;
+    background-color: none;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+}
+
+/* Profile Cards */
+.profileCards{
+    height:300px;
+    width:89%;
+    display:flex;   
+    /* flex-wrap: wrap; */
+}
+.cont{
+    margin-bottom:20px;
+    padding:50px;
+    height:350px;
+    width:350px;
+}
+.card {
+    height:70%;
+    width: 130%;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: #D8A732;
+    position: relative;
+    overflow: hidden;
+    /* margin-top:30px; */
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow to the card */
+  }
+
+  .profileCards img {
+    width: 14.7%;
+    position: absolute;
+    /* bottom: 0px;  */
+    transform: translateY(-100%) translateX(34%) ;
+      /* left:30%; */
+      /* margin-top: -50px; */
+      /* height: auto; */
+      /* padding:10px; */
+      /* z-index: 1;  */
+      /* overlay:auto; */
+      /* height:-400px; */
+      /* z-index: 2; */
+      border-radius: 10px; 
+      /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); z-index:0.3; */
+      border:transparent;
+      height:250px;
+  }
+
+  .card h2 {
+    font-size: 25px;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+    margin: 0;
+    width:5px;
+  }
+  #card2{
+    background-color: rgb(122, 207, 36);
+  }
+  #card3{
+    background-color:dodgerblue;
+  }
+  #card4{
+    background-color:crimson;
+  }
+  .icon {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 50%;
+    cursor:pointer;
+  }

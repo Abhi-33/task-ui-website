@@ -1,0 +1,67 @@
+.sectionSeven{
+    height:500px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    height:inherit; 
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    /* justify-content: center; */
+    width:90%;
+}
+.card {
+    width: 450px;
+    padding: 30px;
+    height:450px;
+    background: linear-gradient(180deg, #5025d6, #312050);
+    border-radius: 15px;
+    color: white;
+    /* margin-left:15%; */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    font-family: "Poppins", sans-serif;
+  }
+  #card1{
+    margin-left:25%;
+  }
+  
+  .cardSubtitle {
+    font-size: 16px;
+    color: #84d35a; /* Green color for the "Join As a Brand" text */
+    margin: 0;
+    /* text-transform: uppercase; */
+  }
+  
+  .cardTitle {
+    font-size: 26px;
+    /* margin: 10px 0; */
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  .cardLink {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .cardImage {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+    height:90%;
+  }
+  
+  .cardImage2 {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
